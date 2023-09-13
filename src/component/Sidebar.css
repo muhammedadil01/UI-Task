@@ -1,0 +1,92 @@
+.side-bar{
+    height: 100vh;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.log-area{
+    background-color: white;
+    flex: 0.3;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.feature-area{
+    background-color: white;
+    flex: 0.7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.log-img{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.name-sec{
+   display: flex;
+   padding-top: 15px;
+   text-align: center;
+   justify-content: center;
+  align-items: center;
+  
+}
+.log-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    font-size: 12px;
+    padding: 5px 5px;
+    
+}
+.email-sec{
+   margin: 0;
+}
+.log-email{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.feature-sec{
+    
+}
+/* .feature-sec:hover{
+    background-color:#e0f2ff ;
+}
+.feature-sec:active{
+    background-color: white;
+} */
+.feature-btn{
+   display: flex;
+  background-color: white;
+    padding: 5px 5px;
+    border-top-right-radius: 10px;   
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+   border: solid #d4d7d9;
+   border-width: thin;  
+   cursor: pointer;
+}
+.feature-btn-bl{
+    display: flex;
+    background-color: #e0f2ff;;
+      padding: 5px 5px;
+      border-top-right-radius: 10px;   
+      border-bottom-right-radius: 10px;
+      margin-top: 20px;
+      width: 90%;
+     border: solid #d4d7d9;
+     border-width: thin;  
+     cursor: pointer;
+}
+.dashboard{
+    padding: 5px 5px;
+    margin-bottom: 0;
+}
+.logout-area{
+    margin-top: 50px;
+    color: #2a8ff5;
+    padding: 5px 5px;
+    text-align: center;
+    cursor: pointer;
+}

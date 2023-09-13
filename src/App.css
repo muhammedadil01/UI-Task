@@ -1,1 +1,4 @@
 
+.App::-webkit-scrollbar {
+    display: none;
+  }

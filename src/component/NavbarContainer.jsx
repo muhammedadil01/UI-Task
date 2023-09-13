@@ -1,15 +1,12 @@
-import React, { useState } from 'react'
-import titleLogo from '../Logo-Image/p-letter-logo-concept-isolated-on-white-background-vector.jpg'
+import React  from 'react'
+import titleLogo from '../Logo-Image/p-logo.png'
 import './NavbarContainer.css'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import {IconButton} from '@mui/material';
+import companyLogo from '../Logo-Image/apple-logo.png'
 
 function NavbarContainer() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+ 
   return (
     <div className='navbar-container'>
         <div className='title-logo'>
@@ -17,13 +14,13 @@ function NavbarContainer() {
         </div>
         <div className='drop-box'>
           <div className='drop-cont'>
-           <p className='box-title'>xyz Enterprices pvt.ltd</p>
+            <div><img src={companyLogo} alt="" className='company-logo' /></div>
+            <div> <p className='box-title'>xyz Enterprices pvt.ltd</p></div>
           </div>  
           <div className='dropdown'>
       <IconButton>
         <KeyboardArrowDownIcon />
       </IconButton>
-      
       
     </div>
 

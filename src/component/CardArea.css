@@ -1,0 +1,41 @@
+.card-area{
+    width: 90%;
+}
+.card-content{
+    padding: 5px 80px;
+    margin-top: 30px;
+}
+.card-btn{
+ display: flex;
+ padding: 5px 5px;
+ border: solid 1px;
+ border-color: black;
+ width: max-content;
+ border-radius: 50px;
+ margin-left: auto;
+}
+.monthly-btn{
+    padding: 5px 35px;
+    background-color: #e0f2ff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.isMonthly{
+    padding: 5px 35px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.annualy-btn{
+    padding: 5px 35px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.annualy-btn-clicked{
+    padding: 5px 35px;
+    background-color: #e0f2ff;
+    border-radius: 20px;
+    cursor: pointer;
+}
